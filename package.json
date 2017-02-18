@@ -1,12 +1,16 @@
 {
-    "name": "tutorial",
-    "version": "1.0.0",
-    "description": "Tutorial for node.js",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node server.js"
-    },
-    "author": "Max Kusnadi",
-    "license": "ISC"
+  "name": "tutorial",
+  "version": "1.0.0",
+  "description": "Tutorial for node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "DEBUG=express* node index.js"
+  },
+  "author": "Max Kusnadi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+    "express-handlebars": "^3.0.0"
+  }
 }
